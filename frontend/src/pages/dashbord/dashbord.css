@@ -1,0 +1,30 @@
+.student-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Ensure there is enough space at the bottom */
+  padding-bottom: 100px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center aligns the content horizontally */
+}
+
+.student-dashboard h2 {
+  font-size: 1.8rem;
+  color: #3aaf9f;
+  margin-bottom: 20px;
+  text-align: center; /* Center aligns the heading */
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%; /* Ensure grid content stretches across */
+}
+
+.no-course-text {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+}

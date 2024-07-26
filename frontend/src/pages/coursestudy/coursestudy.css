@@ -1,0 +1,75 @@
+.course-study-page {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.course-study-page img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.course-study-page h2 {
+  font-size: 32px; /* Decreased font size */
+  color: #3aaf9f; /* Changed heading color to green */
+  margin-bottom: 10px;
+}
+
+.course-study-page h4 {
+  font-size: 20px; /* Decreased font size */
+  color: #333; /* Changed heading color to green */
+  margin-bottom: 20px;
+}
+
+.course-study-page h5 {
+  font-size: 20px; /* Decreased font size */
+  color: #333; /* Changed heading color to green */
+  margin-bottom: 10px;
+}
+
+.lectures-button, .announcements-button, .notes-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #298787;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  margin-top: 10px; /* Added margin to create a gap between buttons */
+  height: 50px; /* Set a fixed height for both buttons */
+  margin-right: 10px;
+}
+
+.lectures-button:hover, .announcements-button:hover, .notes-button:hover {
+  background-color: #3a9f9f;
+}
+
+.play-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .course-study-page h2 {
+    font-size: 1.8rem; /* Adjusted font size for smaller screens */
+  }
+  
+  .course-study-page h4 {
+    font-size: 1.2rem; /* Adjusted font size for smaller screens */
+  }
+  
+  .course-study-page h5 {
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+  }
+}

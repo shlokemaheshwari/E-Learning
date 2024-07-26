@@ -1,0 +1,44 @@
+/* Base styling for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #298787;  /* Teal background */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  color: #fff; /* White text color */
+  font-family: 'Roboto', sans-serif; /* Use a consistent font family */
+
+  .logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff; /* Purple logo color */
+    text-decoration: none; /* Ensure logo is not underlined */
+    transition: color 0.3s;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+
+  .link {
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+
+    @media (max-width: 768px) {
+      gap: 0.5rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff; /* White link color */
+      transition: color 0.3s;
+
+      &:hover {
+        color: #f5f5f5; /* Light gray on hover */
+      }
+    }
+  }
+}

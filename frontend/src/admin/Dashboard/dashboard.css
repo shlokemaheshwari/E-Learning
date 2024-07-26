@@ -1,0 +1,25 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .box {
+    margin-left: 130px;
+    background-color: #3aaf9f;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .box:hover {
+    transform: scale(1.5); /* Increase the size of the box */
+    background-color: #cce3e0ab;
+    color:#298787;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+  }
+}

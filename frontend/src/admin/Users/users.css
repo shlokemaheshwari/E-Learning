@@ -1,0 +1,54 @@
+.users {
+  width: 100%; /* Adjusted to full width */
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 20px auto; /* Increased margin */
+  min-height: 80vh;
+  background-color: #cce3e0ab;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.users h1 {
+  color: #3aaf9f;
+  margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+.users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Added margin top for spacing */
+}
+
+.users th, .users td {
+  padding: 12px;
+  border: 1px solid #aaa;
+}
+
+.users th {
+  background-color: #3aaf9f;
+  color: white;
+}
+
+.users td {
+  text-align: center;
+}
+
+.users button {
+  padding: 10px 20px;
+  background-color: #298787;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.users button:hover {
+  background-color: #3a9f9f;
+}

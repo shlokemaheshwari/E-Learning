@@ -1,0 +1,99 @@
+.add-course {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    padding: 20px; /* Add padding to avoid touching edges */
+    box-sizing: border-box;
+    margin-left: 125px;
+  }
+  
+  .course-form {
+    background-color: white;
+    padding: 30px; /* Reduce padding */
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.677); /* Enhanced shadow for better effect */
+    text-align: center;
+    width: 100%;
+    max-width: 500px; /* Ensure max width */
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .course-form h2 {
+    font-size: 28px;
+    color: #3aaf9f;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .course-form form {
+    text-align: center; /* Center align the form elements */
+  }
+  
+  .course-form form input,
+  .course-form form select,
+  .course-form form button {
+    width: 100%; /* Full width */
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Rounded input fields */
+    transition: border 0.3s ease;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .course-form form input:focus,
+  .course-form form select:focus,
+  .course-form form button:focus {
+    border: 1px solid #3aaf9f; /* Teal border on focus */
+    outline: none;
+  }
+  
+  .course-form form select {
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg viewBox='0 0 140 140' width='12' height='12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%233aaf9f' d='M70 98l60-60H10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+  }
+  
+  .course-form form select:hover {
+    border: 1px solid #298787;
+  }
+  
+  .course-form form button {
+    background-color: #298787; /* Teal button background */
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-form form button:hover:not(:disabled) {
+    background-color: #3a9f9f; /* Darker teal on hover */
+  }
+  
+  .course-form form button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  .course-form img {
+    margin-top: 15px;
+    border-radius: 5px;
+    max-width: 100%; /* Adjust image size to fit within form */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

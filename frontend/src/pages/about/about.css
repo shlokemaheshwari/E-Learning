@@ -1,0 +1,40 @@
+.about {
+  padding: 80px 0;
+  text-align: center;
+  min-height: 55vh;
+  background-color: #cce3e0ab;
+}
+
+.about-card {
+  background-color: #ffffff; /* Light gray background for the card */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
+  max-width: 800px; /* Adjusted max-width for the card */
+  margin: 0 auto; /* Center the card horizontally */
+
+  .about-content {
+    max-width: 700px; /* Adjusted max-width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+
+    h2 {
+      font-size: 36px;
+      color: #3aaf9f; /* Purple color for headings */
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    p {
+      font-size: 17px;
+      color: #333;
+      line-height: 1.6;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 0 10px; /* Adjusted padding for smaller screens */
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/* Base styling for the footer */
+footer {
+  background-color: #298787; /* White background */
+  color: #ffffff; /* Green text color */
+  padding: 20px 0;
+  text-align: center;
+  position: relative; /* Ensure it sticks to the bottom of the viewport */
+}
+/* Center and limit width of footer content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for paragraphs within footer */
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(255, 255, 255); /* Dark gray text color */
+}
+
+/* Styling for links within footer */
+.footer-content a {
+  text-decoration: none;
+  color: #ffffff; /* Green link color */
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.footer-content a:hover {
+  color: #ffffff; /* Darker green on hover */
+}
+
+/* Styling for social links */
+.social-links {
+  margin-top: 10px;
+}
+
+/* Styling for individual social links */
+.social-links a {
+  color: #ffffff; /* Green social link color */
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for social links */
+.social-links a:hover {
+  color: #ffffff; /* Darker green on hover */
+}
